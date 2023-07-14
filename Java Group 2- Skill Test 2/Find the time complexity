@@ -1,0 +1,15 @@
+Find the time complexity
+Find the time complexity of following pseudo code:
+func(int n)
+    an_v=1
+    for (lv=1; lv<=n; lv+=an_v)
+        an_v++
+        print(“*”)
+Options
+This problem has only one correct answer
+O(n)
+O(sqrt(n))
+O(1)
+O(log n)
+
+Hurray! Correct Answer    O(sqrt(n)) 
