@@ -1,0 +1,20 @@
+Find the time complexity
+Find the time complexity of following pseudo code:
+int func(int n)
+    count=0
+    for (lv=n; lv>0; lv/=2)
+        inner_lv=0
+        while(inner_lv < lv)
+            inner_lv++
+            count+=1
+
+    return count
+Options
+This problem has only one correct answer
+O(n)
+O(n log(n))
+O(1)
+O(log n)
+
+
+Hurray! Correct Answer    O(n)
